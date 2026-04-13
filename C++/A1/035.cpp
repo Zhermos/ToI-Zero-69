@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int A,sum=0;
+    cin >> A;
+    for(int i=1;i<=A;i++){
+        sum += i*i;
+    }
+    cout << sum;
+}
