@@ -1,0 +1,24 @@
+A,B,C = int(input()),int(input()),int(input())
+if(C>3):
+    print(int((A+B)*1.5))
+    sum=(A+B)*1.5
+else:
+    print(A+B)
+    sum=A+B
+if(sum>=1500):
+    print(5)
+    if(C>=7):print(99)
+    else:print(0)
+elif(sum>=1000):
+    print(4)
+    if(B>300):print(88)
+    else:print(0)
+elif(sum>=500):
+    print(3)
+    print(0)
+elif(sum>=200):
+    print(2)
+    print(0)
+else:
+    print(1)
+    print(0)
